@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.org/purcell/emacs.d.png?branch=master)](https://travis-ci.org/purcell/emacs.d)
 
 # A reasonable Emacs config
@@ -107,3 +108,7 @@ versions (see "Updates" above). If you still experience problems, go ahead and
 [sanityinc.com](http://www.sanityinc.com/)
 
 [@sanityinc](https://twitter.com/)
+=======
+# emacs-configuration
+.emacs.d
+>>>>>>> 82f6eaad70126316edb411a2a11f1d74ebb2c986
