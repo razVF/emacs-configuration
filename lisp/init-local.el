@@ -1,7 +1,10 @@
-;; easy keys to split window. Key based on ErgoEmacs keybinding
-(global-set-key (kbd "C-c s") 'other-window) ; cursor to other pane
-;;(global-set-key (kbd "M-s") 'switch-window.el) ; cursor to other pane
-
+;; Save emacs backup files
+(setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+;; Disk space is cheap, save lots
+(setq delete-old-versions -1)
+(setq version-control t)
+(setq vc-make-backup-files t)
+(setq auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-list/" t)))
 
 ;; Custom theme
 (setq custom-theme-directory "~/.emacs.d/theme")
