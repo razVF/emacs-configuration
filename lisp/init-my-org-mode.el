@@ -35,8 +35,8 @@
 (define-key global-map [(control meta ?r)] 'remember)
 
 (custom-set-variables
- '(org-agenda-files (quote ("~/todo.org")))
- '(org-default-notes-file "~/notes.org")
+ '(org-agenda-files (quote ("~/Documents/todo.org")))
+ '(org-default-notes-file "~/Documents/notes.org")
  '(org-agenda-ndays 7)
  '(org-deadline-warning-days 14)
  '(org-agenda-show-all-dates t)
@@ -64,8 +64,8 @@
              (org-agenda-overriding-header "Unscheduled TODO entries: "))))))
  '(org-remember-store-without-prompt t)
  '(org-remember-templates
-   (quote ((116 "* TODO %?\n  %u" "~/todo.org" "Tasks")
-           (110 "* %u %?" "~/notes.org" "Notes"))))
+   (quote ((116 "* TODO %?\n  %u" "~/Documents/todo.org" "Tasks")
+           (110 "* %u %?" "~/Documents/notes.org" "Notes"))))
  '(remember-annotation-functions (quote (org-remember-annotation)))
  '(remember-handler-functions (quote (org-remember-handler))))
 
