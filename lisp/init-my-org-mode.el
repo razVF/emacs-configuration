@@ -35,7 +35,7 @@
 (define-key global-map [(control meta ?r)] 'remember)
 
 (custom-set-variables
- '(org-agenda-files (quote ("~/Documents/todo.org")))
+ '(org-agenda-files (list ("~/Documents/todo.org\" \"~/Documents/habit.org")))
  '(org-default-notes-file "~/Documents/notes.org")
  '(org-agenda-ndays 7)
  '(org-deadline-warning-days 14)
